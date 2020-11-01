@@ -1,4 +1,4 @@
-import discord
+import discord_unofficial as discord
 from discord.ext import commands
 import threading
 import os
@@ -27,7 +27,7 @@ __version__ = "0.1.1"
 log = logging.getLogger("red.audio")
 
 try:
-    import youtube_dl
+    import youtube_dlc as youtube_dl
 except:
     youtube_dl = None
 
