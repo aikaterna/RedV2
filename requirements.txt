@@ -1,4 +1,5 @@
 pip
-git+git://github.com/Rapptz/discord.py.git@async#egg=discord.py[voice]
-youtube_dl
+discord.py-unofficial
+git+git://github.com/aikaterna/discord.py.git@async#egg=discord.py[voice]
+youtube_dlc
 imgurpython
