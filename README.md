@@ -1,3 +1,19 @@
+# This is a "working" copy of Red v2 for the time being.
+
+You will need:
+- to install my fork of discord.py async, youtube-dlc, and discord.py-unofficial.
+- a minimum of Python 3.6 installed - making this incompatable with Windows hosting as Red v2 does not work on Windows with Python 3.6.x.
+- websockets 6.0 and aiohttp 3.6.3.
+- to probably apply some critical thinking while installing as I've most likely missed something.
+
+Why?
+- Because I can.
+
+Are you really supporting this?
+- Not particularly... mostly doing this for fun before the v6 API is killed off. There's some stuff that doesn't work quite right, yet. Open a detailed issue if you run into trouble.
+
+______________________________________________________
+
 ![intro](http://i.imgur.com/RgGlNpQ.jpg)
 
 # Red - A fully customizable Discord bot
