@@ -1,5 +1,5 @@
-import discord
-from discord.ext import commands
+import discord_unofficial as discord
+from discord_unofficial.ext import commands
 from cogs.utils import checks
 from cogs.utils.converters import GlobalUser
 from .utils.dataIO import dataIO
@@ -49,7 +49,7 @@ class Owner:
         self.session = aiohttp.ClientSession(loop=self.bot.loop)
 
     def __unload(self):
-        self.session.close()
+        self.bot.loop.create_task(self.session.close())
 
     @commands.command()
     @checks.is_owner()

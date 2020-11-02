@@ -10,7 +10,7 @@ import subprocess
 
 try:
     import discord_unofficial as discord
-    from discord.ext import commands
+    from discord_unofficial.ext import commands
 except ImportError:
     print("Discord.py is not installed.\n"
           "Consult the guide for your operating system "
@@ -75,8 +75,9 @@ class Bot(commands.Bot):
             kwargs['self_bot'] = self.settings.self_bot
             if self.settings.self_bot:
                 kwargs['pm_help'] = False
-        super().__init__(*args, command_prefix=prefix_manager, intents=0b1000011, **kwargs)
-        # 0b1000011 is GUILD_INVITES, GUILD_MEMBERS and GUILDS
+        super().__init__(*args, command_prefix=prefix_manager, intents=14335, **kwargs)
+        # this is everything except for typing events
+        # check out https://ziad87.net/intents/ for a good intents calculator
 
     async def send_message(self, *args, **kwargs):
         if self._message_modifiers:

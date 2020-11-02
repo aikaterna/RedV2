@@ -1,10 +1,6 @@
 # This is a "working" copy of Red v2 for the time being.
 
-You will need:
-- to install [my fork](https://github.com/aikaterna/discord.py) of discord.py async, [youtube-dlc](https://pypi.org/project/youtube-dlc/), and [discord.py-unofficial](https://pypi.org/project/discord.py-unofficial/).
-- a minimum of Python 3.6 installed - making this incompatable with Windows hosting as Red v2 does not work on Windows with Python 3.6.x.
-- websockets 6.0 and aiohttp 3.6.3.
-- to probably apply some critical thinking while installing as I've most likely missed something.
+[Follow the Windows install instructions here.](https://gist.github.com/aikaterna/ecdc56f81768f5cf90b7febd2350b84a)
 
 Why?
 - Because I can.

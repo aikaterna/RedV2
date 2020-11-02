@@ -1,10 +1,10 @@
-from discord.ext import commands
+from discord_unofficial.ext import commands
 from .utils.chat_formatting import box
 from .utils.dataIO import dataIO
 from .utils import checks
 from copy import copy
 import os
-import discord
+import discord_unofficial as discord
 
 
 class Alias:

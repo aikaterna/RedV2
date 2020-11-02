@@ -1,5 +1,5 @@
-from discord.ext import commands
-import discord.utils
+from discord_unofficial.ext import commands
+import discord_unofficial.utils
 
 #
 # This is a modified version of checks.py, originally made by Rapptz

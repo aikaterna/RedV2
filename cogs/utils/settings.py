@@ -1,6 +1,6 @@
 from .dataIO import dataIO
 from copy import deepcopy
-import discord
+import discord_unofficial as discord
 import os
 import argparse
 
