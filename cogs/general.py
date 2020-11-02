@@ -1,5 +1,5 @@
-import discord_unofficial as discord
-from discord_unofficial.ext import commands
+import discord
+from discord.ext import commands
 from .utils.chat_formatting import escape_mass_mentions, italics, pagify
 from random import randint
 from random import choice

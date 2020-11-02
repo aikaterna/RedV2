@@ -1,5 +1,5 @@
-import discord_unofficial as discord
-from discord_unofficial.ext import commands
+import discord
+from discord.ext import commands
 from .utils.dataIO import dataIO
 from .utils import checks
 from datetime import datetime

@@ -1,5 +1,5 @@
-import discord_unofficial as discord
-from discord_unofficial.ext import commands
+import discord
+from discord.ext import commands
 import threading
 import os
 from random import shuffle, choice

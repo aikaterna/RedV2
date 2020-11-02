@@ -1,10 +1,10 @@
-from discord_unofficial.ext import commands
+from discord.ext import commands
 from random import choice
 from .utils.dataIO import dataIO
 from .utils import checks
 from .utils.chat_formatting import box
 from collections import Counter, defaultdict, namedtuple
-import discord_unofficial as discord
+import discord as discord
 import time
 import os
 import asyncio

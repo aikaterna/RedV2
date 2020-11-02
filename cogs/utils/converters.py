@@ -1,5 +1,5 @@
-from discord_unofficial.ext.commands.converter import IDConverter
-from discord_unofficial.ext.commands.errors import BadArgument
+from discord.ext.commands.converter import IDConverter
+from discord.ext.commands.errors import BadArgument
 import re
 
 

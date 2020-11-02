@@ -1,11 +1,11 @@
-from discord_unofficial.ext import commands
+from discord.ext import commands
 from .utils.dataIO import dataIO
 from .utils.chat_formatting import escape_mass_mentions
 from .utils import checks
 from collections import defaultdict
 from string import ascii_letters
 from random import choice
-import discord_unofficial as discord
+import discord
 import os
 import re
 import aiohttp

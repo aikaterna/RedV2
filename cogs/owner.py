@@ -1,5 +1,5 @@
-import discord_unofficial as discord
-from discord_unofficial.ext import commands
+import discord
+from discord.ext import commands
 from cogs.utils import checks
 from cogs.utils.converters import GlobalUser
 from .utils.dataIO import dataIO

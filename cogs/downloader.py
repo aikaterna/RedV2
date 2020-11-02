@@ -1,4 +1,4 @@
-from discord_unofficial.ext import commands
+from discord.ext import commands
 from cogs.utils.dataIO import dataIO
 from cogs.utils import checks
 from cogs.utils.chat_formatting import pagify, box
@@ -7,7 +7,7 @@ from subprocess import run as sp_run, PIPE
 import shutil
 from asyncio import as_completed
 from setuptools import distutils
-import discord_unofficial
+import discord
 from functools import partial
 from concurrent.futures import ThreadPoolExecutor
 from time import time

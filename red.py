@@ -9,8 +9,8 @@ import datetime
 import subprocess
 
 try:
-    import discord_unofficial as discord
-    from discord_unofficial.ext import commands
+    import discord
+    from discord.ext import commands
 except ImportError:
     print("Discord.py is not installed.\n"
           "Consult the guide for your operating system "
